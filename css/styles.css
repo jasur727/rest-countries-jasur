@@ -1,0 +1,145 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+
+.container{
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.header{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+
+.world{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.world-heading{
+  font-size: 24px;
+  line-height: 33px;
+  color: #111517;
+}
+
+.dark{
+  font-size: 16px;
+  line-height: 22px;
+  color: #111517;
+  display: flex;
+  cursor: pointer;
+}
+
+.dark:active{
+  background-color: rgba(32, 44, 54, 1);
+}
+
+.dark::before{
+  content: '';
+  width: 17px;
+  height: 16px;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/month.svg");
+  margin-right: 10px;
+}
+
+.search-icon{
+  padding: 18px 74px;
+  width: 480px;
+  outline: 0;
+  border: 1px solid transparent;
+  background: #fff;
+  box-shadow: 0 2px 9px rgb(0 0 0 / 5%);
+  border-radius: 5px;
+  background-image: url(../img/search.svg);
+  background-repeat: no-repeat;
+  background-position: left calc(35px) center;
+  transition: border .3s ease,opacity .3s ease;
+}
+
+.region-country{
+  background: #FFFFFF;
+  box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+  border-radius: 5px;
+  border: none;
+  padding: 18px 77px 18px 24px;
+}
+
+.region-option{
+  border: none;
+}
+
+.country-flag{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-top: 48px;
+}
+
+.germany{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.0294384);
+  border-radius: 5px;
+  width: 266px;
+  margin-bottom: 67px;
+  /* margin-left: 75px */
+}
+
+.germany-link{
+  text-decoration: none;
+}
+
+.flag{
+  border-radius: 5px;
+}
+
+.country-information{
+  padding: 24px;
+}
+
+.country-li{
+  list-style: none;
+}
+
+.country-h2{
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(17, 21, 23, 1);
+}
+
+.population{
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.region{
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+}
+
+.capital{
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+  margin-bottom: 46px;
+}
